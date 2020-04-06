@@ -15,4 +15,4 @@ def test_fib2():
 
 
 def test_fib3():
-    assert fib(15) == 610
+    assert fib(15) == 611
