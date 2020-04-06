@@ -25,7 +25,7 @@ steps:
 
 - script: |
     python -m pip install pylint
-    pylint .
+    pylint
   displayName: 'Run lint tests'  
 
 - script: |
