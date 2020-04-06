@@ -10,10 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 strategy:
   matrix:
-    Python35:
-      python.version: '3.5'
-    Python36:
-      python.version: '3.6'
     Python37:
       python.version: '3.7'
 
@@ -31,3 +27,5 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'Unit Test Cases'
+
+- script: python fibonacci.py
