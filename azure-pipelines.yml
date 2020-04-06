@@ -23,10 +23,10 @@ steps:
     python -m pip install --upgrade pip setuptools wheel
   displayName: 'Install dependencies'
 
-- script: |
-    python -m pip install pylint
-    pylint
-  displayName: 'Run lint tests'  
+#- script: |
+#    python -m pip install pylint
+#    pylint .
+#  displayName: 'Run lint tests'  
 
 - script: |
     pip install pytest pytest-azurepipelines
