@@ -20,7 +20,7 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - script: |
-    - script: python -m pip install --upgrade pip setuptools wheel
+    python -m pip install --upgrade pip setuptools wheel
   displayName: 'Install dependencies'
 
 - script: |
