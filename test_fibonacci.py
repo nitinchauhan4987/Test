@@ -7,7 +7,7 @@ def test_fib():
 
 
 def test_fib1():
-    assert fib(10) == 55
+    assert fib(10) ==55
 
 
 def test_fib2():
